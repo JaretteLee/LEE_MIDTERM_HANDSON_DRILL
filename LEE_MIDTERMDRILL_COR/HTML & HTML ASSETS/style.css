@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 3rem;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-container {
+  margin-top: 3rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.logo-container img {
+  max-width: 100px;
+}
+
+/* REGISTRATION NUM */
+.registration-num h4 span {
+  color: red;
+}
+
+main {
+  border: solid black;
+  min-height: 255vh;
+}
+
+section {
+  padding-bottom: 1rem;
+}
+
+.general-info-header-1 {
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  text-align: center;
+  padding: 0.3rem;
+  border-bottom: solid black;
+}
+
+.general-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding-left: 0px;
+}
+
+.gender-age {
+  display: flex;
+  gap: 2rem;
+}
+
+.general-info-header-2 {
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  padding: 0.3rem;
+  border-bottom: solid black;
+  border-top: solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.unit div {
+  display: flex;
+  gap: 1rem;
+}
+
+.general-info-2 {
+  margin-left: 0rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: start;
+}
+
+.subjects {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.units {
+  margin-left: 1rem;
+  display: flex;
+  gap: 1rem;
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.credits {
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.schedule {
+  margin-left: 5rem;
+  margin-right: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  white-space: nowrap;
+  font-size: 15px;
+  
+}
+
+
+
+.details {
+  margin-left: 1rem;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 15px;
+  
+}
+
+.paragraph-container{
+  margin-bottom: 11px; /* Adjust the value to your desired spacing */
+}
+
+.Seksyon {
+  margin-left: 3rem;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 15px;
+  
+}
+
+.total_units {
+  margin-left: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin-bottom: 2px; /* Adjust the margin to control the space below the paragraph */
+}
+
+.schedule32 {
+  margin-left: 5rem;
+  margin-right: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  white-space: nowrap;
+  font-size: 15px;
+  
+}
+.detalyado {
+  margin-left: -16rem;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 15px;
+  
+}
+
+
+
+
+
+th {
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);/* Blue color */
+  color: rgb(0, 0, 0); /* Text color for contrast */
+  margin: 10px;
+}
+.table_header {
+  position: absolute;
+  bottom: -350px;  /* Adjust the top position in pixels */
+  left: 98px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  letter-spacing: 7px;
+  padding: 20px;
+  border: 1px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table_baba {
+  table-layout: fixed;
+  position: absolute;
+  bottom: -593px;  /* Adjust the top position in pixels */
+  left: 98px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  height: 45%;
+  padding: 22px;
+  border: 1px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.table_bb {
+  background-color: rgba(255, 255, 255, 0.5); 
+  table-layout: fixed;
+  position: absolute;
+  bottom: -623px;  /* Adjust the top position in pixels */
+  left: 98px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  height: 4%;
+  padding: 22px;
+  border: 1px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.invisible-space {
+  margin-right: 100px; /* Adds space to the right of the word */
+}
+
+.table_bc {
+  background-color: rgba(255, 255, 255, 0.5); 
+  table-layout: fixed;
+  position: absolute;
+  bottom: -646px;  /* Adjust the top position in pixels */
+  left: 98px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  height: 4%;
+  padding: 20px;
+  border: 1px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.table_bd {
+  background-color: rgba(255, 255, 255, 0.5); 
+  table-layout: fixed;
+  position: absolute;
+  bottom: -670px;  /* Adjust the top position in pixels */
+  left: 98px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  height: 4%;
+  padding: 20px;
+  border: 1px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.table_schedofpay {
+  position: absolute;
+  bottom: -690px;  /* Adjust the top position in pixels */
+  left: 98px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  letter-spacing: 7px;
+  padding: 20px;
+  border: 1px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.table_paymentdate {
+  background-color: rgba(255, 255, 255, 0.5); 
+  position: absolute;
+  bottom: -714px;  /* Adjust the top position in pixels */
+  left: 98px; /* Adjust the left position in pixels */
+  width: 35%;
+  padding: 1px;
+  border: 1px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+  word-wrap: break-word;
+  border-collapse: collapse;
+}
+.table_paymentdate2 {
+  background-color: rgba(255, 255, 255, 0.5); 
+  position: absolute;
+  bottom: -738px;  /* Adjust the top position in pixels */
+  left: 98px; /* Adjust the left position in pixels */
+  width: 35%;
+  padding: 1px;
+  border: 1px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+  word-wrap: break-word;
+  border-collapse: collapse;
+  
+}
+.td {
+  border-spacing: 100px;
+  border: 1px solid black; 
+  padding: 10x;
+  font-size: 9px; 
+  white-space: nowrap;
+  width: 150px;
+
+}
+
+.table_ror {
+  background-color: rgba(255, 255, 255, 0.5); 
+  table-layout: fixed;
+  position: absolute;
+  bottom: -355px;  /* Adjust the top position in pixels */
+  right: 10px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  height: 4%;
+  padding: 20px;
+  border: 1px ;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 15px;
+  word-wrap: break-word;
+}
+
+.table_rorbb {
+
+  table-layout: fixed;
+  position: absolute;
+  bottom: -629px;  /* Adjust the top position in pixels */
+  left: 620px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 1%;
+  height: 45%;
+  padding: 1px;
+  font-family: 'Cambria', sans-serif;
+  white-space: nowrap;
+  font-size: 15px;
+  word-wrap: break-word;
+  letter-spacing: 2px;
+  word-spacing: 7px;
+}
+
+.table_or {
+  background-color: rgba(255, 255, 255, 0.5); 
+  table-layout: fixed;
+  position: absolute;
+  bottom: -610px;  /* Adjust the top position in pixels */
+  left: 620px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  height: 4%;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.table_pv {
+  background-color: rgba(255, 255, 255, 0.5); 
+  table-layout: fixed;
+  position: absolute;
+  bottom: -650px;  /* Adjust the top position in pixels */
+  left: 620px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  height: 4%;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.table_ab {
+  background-color: rgba(255, 255, 255, 0.5); 
+  table-layout: fixed;
+  position: absolute;
+  bottom: -850px;  /* Adjust the top position in pixels */
+  right: 10px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  height: 4%;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 15px;
+  word-wrap: break-word;
+  letter-spacing: 2px;
+}
+
+.table_us {
+  background-color: rgba(255, 255, 255, 0.5); 
+  table-layout: fixed;
+  position: absolute;
+  bottom: -930px;  /* Adjust the top position in pixels */
+  right: 50px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  height: 4%;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+  word-wrap: break-word;
+  
+}
+.table_dp {
+  background-color: rgba(255, 255, 255, 0.5); 
+  table-layout: fixed;
+  position: absolute;
+  bottom: -1192px;  /* Adjust the top position in pixels */
+  left: 935px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  height: 4%;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+  word-wrap: break-word;
+  
+}
+
+.footer {
+  position: absolute;
+  bottom: -1207px;  /* Adjust the top position in pixels */
+  left: 50px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 92%;
+  padding: 20px;
+  border: 1px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; 
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+} 
+.solid-line {/* Set the desired width for your line */
+  height: 5px; /* Set the desired height or thickness for your line */
+  background-color: black; /* Set the line color */
+  bottom: -599px;  /* Adjust the top position in pixels */
+  left: 98px; /* Adjust the left position in pixels */
+  border-collapse: collapse; /* Merge adjacent borders into a single border */
+  width: 35%;
+  position: absolute;
+}
